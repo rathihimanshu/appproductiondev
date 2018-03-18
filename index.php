@@ -3,7 +3,7 @@
 <br><br>
 hi
 <center>
-<?php echo "HI ALL" ?><center>
+<?php echo getenv("application"); ?></center>
 <br><br>
 <center>
 <?php echo getenv("environment"); ?>
